@@ -1,0 +1,27 @@
+{
+  "contact": {
+    "link": [
+      {
+        "_href": "/contacts/1234/first-name",
+        "_rel": "first-name"
+      },
+      {
+        "_href": "/contacts/1234/last-name",
+        "_rel": "last-name"
+      },
+      {
+        "_href": "/contacts/1234/age",
+        "_rel": "age"
+      }
+    ],
+    "first-name": "Jane",
+    "last-name": "Doe",
+    "age": "25"
+  }
+}
+
+
+PUT /contacts/1234/first-name
+{
+"first-name": "John"
+}

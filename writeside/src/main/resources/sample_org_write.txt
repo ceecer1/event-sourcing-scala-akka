@@ -1,0 +1,43 @@
+Create Organization:
+
+POST http://localhost:8081/api/org
+
+With Header : Content-Type: application/json; domain=New
+
+
+
+
+For request:
+
+POST http://localhost:8081/api/org/b104f8dd-bf30-4697-b0dd-d81954ac1036
+
+With Header : Content-Type: application/json; domain=Create
+
+{
+    "name": "new org",
+    "description": "String",
+    "category": "money",
+    "website": "google",
+    "addresses": [
+        {
+            "street": "String",
+            "city": "String",
+            "state": "String",
+            "zip": "String",
+            "country": "String"
+        }
+    ],
+    "contactPersons": [
+        "a",
+        "b",
+        "c",
+        "d"
+    ],
+    "primaryAddress": {
+        "street": "String",
+        "city": "String",
+        "state": "String",
+        "zip": "String",
+        "country": "String"
+    }
+}

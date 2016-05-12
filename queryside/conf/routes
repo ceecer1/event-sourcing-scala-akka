@@ -1,0 +1,2 @@
+GET     /                               controllers.Application.index
+GET     /:eventId/events                controllers.Application.socialEvents(eventId: String)

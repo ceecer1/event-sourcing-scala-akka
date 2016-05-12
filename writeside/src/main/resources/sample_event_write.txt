@@ -1,0 +1,26 @@
+Create Event:
+
+POST http://localhost:8081/api/event
+
+With Header : Content-Type: application/json; domain=New
+
+
+
+POST http://localhost:8081/api/event/0ee90adc-70f8-4f83-8a07-de854fb80204
+
+With Header : Content-Type: application/json; domain=Create
+
+{
+    "title": "new event",
+    "description": "String",
+    "eventStart": 12343,
+    "eventEnd": 123450,
+    "eventDate": 12360,
+    "eventType": "Meetup",
+    "street": "String",
+    "city": "String",
+    "state": "String",
+    "zip": "String",
+    "country": "String",
+    "eventLink": "String"
+}

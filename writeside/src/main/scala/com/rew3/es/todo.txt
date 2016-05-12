@@ -1,0 +1,2 @@
+#1. Put tag in objects like `tag`="event"
+#2. Kill the persistent actors, revive ProcessManager persistent Actor for lookups.
